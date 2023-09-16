@@ -70,7 +70,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #200E34;
+  background-color: #F99E0F;
 }
 
 [tabindex="-1"]:focus {
@@ -12153,7 +12153,7 @@ h5,
   content: '';
   opacity: .6;
   height: 609px;
-  background: #200E34;
+  background: #000000;
 }
 
 .hero-wrap.hero-wrap-2 {
@@ -12405,13 +12405,11 @@ h5,
 }
 
 .btn.btn-primary {
-  background: #9536EC !important;
-  border: 1px solid #9536EC !important;
+  background: #f99e0f !important;
   color: #fff !important;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #9536EC;
   background: transparent;
   color: #fff
 }
@@ -12576,7 +12574,7 @@ h5,
   top: -12.55px;
   padding: 20px;
 
-  background: rgba(149, 54, 236, 0.1);
+  background: rgb(136 87 9);
   border-radius: 16px;
   transform: rotate(-1deg);
 }
@@ -12589,7 +12587,7 @@ h5,
   left: 14.8px;
   top: 3.43px;
 
-  background: rgba(149, 54, 236, 0.1);
+  background: rgb(136 87 9);
   border-radius: 16px;
   transform: matrix(1, -0.01, -0.02, 1, 0, 0);
   padding: 20px;
