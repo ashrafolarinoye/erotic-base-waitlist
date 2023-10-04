@@ -469,7 +469,7 @@
 		}
 
 		.modal-content h2 span {
-			color: #9536EC;
+			color: #F99E0F;
 		}
 
 		.modal-body {
@@ -587,8 +587,6 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal"
 								data-target="#generatetweet" disabled>Generate Tweet</a></li>
-
-
 					</ul>
 				</div>
 
@@ -633,12 +631,40 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<input type="submit" name="submit" class="btnkayd w-100" value="Submit" />
+						<input type="submit" id="openModalBtn" name="submit" class="btnkayd w-100" onclick="openModal()" />
 					</div>
 				</div>
+
+				<!-- The dialog element for the popup modal -->
+				<dialog id="myModal">
+						<div class="modal-dialog modal-lg modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-body" id="modal-thanks">
+									<h2 style="color: black;">&#129395;</h2>
+									<p style="color: black;">Congratulations! Your application has been received.</p>
+								</div>
+							</div>
+						</div>
+				</dialog>
+			
+				<script>
+					// Function to open the modal
+					function openModal() {
+						const modal = document.getElementById("myModal");
+						modal.showModal();
+					}
+			
+					// Function to close the modal
+					function closeModal() {
+						const modal = document.getElementById("myModal");
+						modal.close();
+					}
+				</script>
+
+
+
 				</form>
 				</p>
-
 			</div>
 		</div>
 	</div>
@@ -692,7 +718,6 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal"
 								data-target="#modaltweet" disabled>Generate Tweet</a></li>
-
 					</ul>
 				</div>
 
@@ -700,7 +725,6 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal"
 								data-target="#modaltweet" disabled>Generate Tweet</a></li>
-
 					</ul>
 				</div>
 			</div>
