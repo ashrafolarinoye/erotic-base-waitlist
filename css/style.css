@@ -6591,6 +6591,7 @@ a.close.disabled {
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: black;
 }
 
 .modal {
@@ -12576,7 +12577,7 @@ h5,
   top: -12.55px;
   padding: 20px;
 
-  background: rgba(149, 54, 236, 0.1);
+  background: rgb(0 0 0 / 43%);
   border-radius: 16px;
   transform: rotate(-1deg);
 }
@@ -12589,7 +12590,7 @@ h5,
   left: 14.8px;
   top: 3.43px;
 
-  background: rgba(149, 54, 236, 0.1);
+  background: rgb(0 0 0 / 43%);
   border-radius: 16px;
   transform: matrix(1, -0.01, -0.02, 1, 0, 0);
   padding: 20px;
@@ -12602,7 +12603,7 @@ h5,
   top: -1.04px;
   padding: 20px;
   position: relative;
-  background: rgba(149, 54, 236, 0.1);
+  background: rgb(0 0 0 / 43%);
   border-radius: 16px;
   transform: rotate(-2deg);
 }
